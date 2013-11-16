@@ -1,0 +1,549 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+/* CUSTOM FONT */  
+@font-face {  
+    font-family: 'EfonRegular';  
+    src: url('fonts/heydings_icons.ttf');  
+    font-weight: normal;  
+    font-style: normal;  
+}  
+
+html {
+	font-family: Helvetica,Arial,Verdana,sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#hfg-header {
+    background: url("images/top-banner.png");
+    background-size: cover;
+    font-size: 100%;
+    height: 120px;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+
+body .head-container {
+	min-width: 1000px;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+}
+
+button, input {
+	line-height: normal;
+	margin: 0;
+    vertical-align: baseline;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+.fixedwidth {
+	width: 1000px;
+}
+
+.row {
+    margin-left: -20px;
+}
+.row:before, .row:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row:after {
+    clear: both;
+}
+
+.span12 {
+    width: 940px;
+}
+.span11 {
+    width: 860px;
+}
+.span10 {
+    width: 780px;
+}
+.span9 {
+    width: 700px;
+}
+.span8 {
+    width: 620px;
+}
+.span7 {
+    width: 540px;
+}
+.span6 {
+    width: 460px;
+}
+.span5 {
+    width: 380px;
+}
+.span4 {
+    width: 300px;
+}
+.span3 {
+    width: 220px;
+}
+.span2 {
+    width: 140px;
+}
+.span1 {
+    width: 60px;
+}
+
+#search-container {
+	float: left;
+	position: absolute;
+}
+
+#search-form {
+	margin: 23px auto 0;
+    position: relative;
+}
+
+.input-wrapper {
+	height: 28px;
+    width: 250px;
+}
+
+#q {
+    color: #098780;
+    font-size: 15px;
+    position: relative;
+    height: 77%;
+    width: 85%;
+    padding: 0 15px;
+}
+
+#search-icon {
+    background: url("images/search-button.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    float: right;
+}
+
+#user-menu {
+    float: right;
+    margin: 23px auto 0;
+}
+
+.button1 {
+    color: white;
+    font-family: helvetica, arial;
+    width: 140px;
+    height: 30px;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 32px;
+    position: relative;
+
+    background: #00887D;  
+    background: -moz-linear-gradient(top, #00887D, #006B63);  
+    background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0, #00887D), color-stop(.5, #00867C), color-stop(.5, #007870), to(#006B63));  
+    /* BORDER RADIUS */  
+    -moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;  
+    border-radius: 5px; 
+
+    border: 1px solid #22ABA3;
+    border-top: 1px solid #c3d6df;
+
+    /* TEXT SHADOW */  
+   
+  
+     /* BOX SHADOW */  
+    -moz-box-shadow: 0 1px 3px black;  
+    -webkit-box-shadow: 0 1px 3px black;  
+    box-shadow: 0 1px 3px black;  
+} 
+
+/* FONT GLYPH (MOSTLY FOR FUN) */  
+.button1:before {  
+    font-family: EfonRegular;  
+    content: 'D';  
+    color: white;  
+    font-size: 15px; 
+    line-height: 27px; 
+    float: left;  
+    margin-left: 7px;  
+    margin-right: -5px;  
+    margin-bottom: 5px; 
+} 
+
+/* WHILE HOVERED */  
+.button1:hover {  
+    background: #014464;  
+    background: -moz-linear-gradient(top, #0c5f85, #0b5273 50%, #024869 51%, #003853);  
+    background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0, #0c5f85), color-stop(.5, #0b5273), color-stop(.51, #024869), to(#003853));  
+}  
+  
+/* WHILE BEING CLICKED */  
+.button1:active {  
+    -moz-box-shadow: 0 2px 6px black;  
+    -webkit-box-shadow: 0 2px 6px black;  
+} 
+
+.button2 {
+    color: white;
+    font-family: helvetica, arial;
+    width: 80px;
+    height: 30px;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 32px;
+    position: relative;
+
+    background: #00887D;  
+    background: -moz-linear-gradient(top, #00887D, #006B63);  
+    background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0, #00887D), color-stop(.5, #00867C), color-stop(.5, #007870), to(#006B63));  
+    /* BORDER RADIUS */  
+    -moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;  
+    border-radius: 5px; 
+
+    border: 1px solid #22ABA3;
+    border-top: 1px solid #c3d6df;
+
+    /* TEXT SHADOW */    
+  
+     /* BOX SHADOW */  
+    -moz-box-shadow: 0 1px 3px black;  
+    -webkit-box-shadow: 0 1px 3px black;  
+    box-shadow: 0 1px 3px black;  
+} 
+
+/* FONT GLYPH (MOSTLY FOR FUN) */  
+.button2:before {  
+    font-family: EfonRegular;  
+    content: 'w';  
+    color: white;  
+    font-size: 15px; 
+    line-height: 27px; 
+    float: left;  
+    margin-left: 7px;  
+    margin-right: -3px;  
+    margin-bottom: 5px; 
+} 
+
+/* WHILE HOVERED */  
+.button2:hover {  
+    background: #014464;  
+    background: -moz-linear-gradient(top, #0c5f85, #0b5273 50%, #024869 51%, #003853);  
+    background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0, #0c5f85), color-stop(.5, #0b5273), color-stop(.51, #024869), to(#003853));  
+}  
+  
+/* WHILE BEING CLICKED */  
+.button2:active {  
+    -moz-box-shadow: 0 2px 6px black;  
+    -webkit-box-shadow: 0 2px 6px black;  
+} 
+
+.button3 {
+    color: white;
+    font-family: helvetica, arial;
+    width: 80px;
+    height: 30px;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 32px;
+    position: relative;
+
+    background: #00887D;  
+    background: -moz-linear-gradient(top, #00887D, #006B63);  
+    background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0, #00887D), color-stop(.5, #00867C), color-stop(.5, #007870), to(#006B63));  
+    /* BORDER RADIUS */  
+    -moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;  
+    border-radius: 5px; 
+
+    border: 1px solid #22ABA3;
+    border-top: 1px solid #c3d6df;
+
+    /* TEXT SHADOW */   
+  
+     /* BOX SHADOW */  
+    -moz-box-shadow: 0 1px 3px black;  
+    -webkit-box-shadow: 0 1px 3px black;  
+    box-shadow: 0 1px 3px black;  
+} 
+
+/* FONT GLYPH (MOSTLY FOR FUN) */  
+.button3:before {  
+    font-family: EfonRegular;  
+    content: 'L';  
+    color: white;  
+    font-size: 15px; 
+    line-height: 27px; 
+    float: left;  
+    margin-left: 7px;  
+    margin-right: -3px;  
+    margin-bottom: 5px; 
+} 
+
+/* WHILE HOVERED */  
+.button3:hover {  
+    background: #014464;  
+    background: -moz-linear-gradient(top, #0c5f85, #0b5273 50%, #024869 51%, #003853);  
+    background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0, #0c5f85), color-stop(.5, #0b5273), color-stop(.51, #024869), to(#003853));  
+}  
+  
+/* WHILE BEING CLICKED */  
+.button3:active {  
+    -moz-box-shadow: 0 2px 6px black;  
+    -webkit-box-shadow: 0 2px 6px black;  
+} 
+
+
+.nav-link {
+    margin-left: 2px;
+}
+
+.hr-style {
+    margin: 0px 0 5px;
+    border: 0 none;
+    box-shadow: 0 12px 12px -12px rgba(143, 122, 16, 1) inset;
+    height: 15px;
+}
+
+.main-logo {
+    position: absolute;
+    top: 5%;
+    left: 43%;
+    z-index: 2000;
+}
+
+.main-menu {
+    background: url("images/menubar.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background-size: 1000px 60px;
+    min-width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -50px;
+    z-index: 1500;
+
+    -moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;  
+    border-radius: 5px; 
+}
+
+.menu-left {
+    float: left;
+    direction: ltr;
+}
+
+.menu-right {
+    float: right;
+    direction: rtl;
+}
+
+.menu-left li {
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 35px;
+}
+
+.menu-right li {
+    display: inline-block;
+    margin-left: 18px;
+    line-height: 35px;
+}
+
+li a {
+    color: #E9DEAF;
+}
+
+.vertical-bar:before {   
+    font-family: EfonRegular;  
+    content: '|';  
+    color: #E9DEAF;  
+    font-size: 14px; 
+    line-height: 27px; 
+    float: left;  
+    margin-right: 20px;  
+    margin-bottom: 5px; 
+}
+
+.background {
+    background: url("images/background.png");
+    background-size: cover;
+    font-size: 100%;
+    height: 530px;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    margin-top: -25px;
+}
+
+.banner-container {
+    margin: 0 auto;
+    padding: 100px 0 0 0;
+    position: relative;
+    width: 1000px;
+    height: 400px;
+    z-index: 2000;
+}
+
+.banner-container:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.video-button {
+    background: url("images/banner1.png");
+    background-size: cover;
+    float: left;
+    font-family: 'proxima-nova-regular','helvetica neue',helvetica,arial,sans-serif;
+    margin-left: 13%;
+    margin-top: 15%;
+    color: white;
+    font-family: helvetica, arial;
+    width: 182px;
+    height: 165px;
+    display: block;
+    position: relative;
+
+    /* BORDER RADIUS */  
+    -moz-border-radius: 7px;  
+    -webkit-border-radius: 7px;  
+    border-radius: 7px; 
+    border: 3px solid #E9DEAF;
+}
+
+/* WHILE HOVERED */  
+.video-button:hover {  
+    background: url("images/banner1.png");
+    background-color: #FFF;
+    background-size: cover; 
+}  
+  
+/* WHILE BEING CLICKED */  
+.video-button:active {  
+    -moz-box-shadow: 0 2px 6px black;  
+    -webkit-box-shadow: 0 2px 6px black;  
+} 
+
+.search-box {
+    background: url("images/banner2.png");
+    background-size: cover;
+    float: left;
+    font-family: 'proxima-nova-regular','helvetica neue',helvetica,arial,sans-serif;
+    margin-left: 1%;
+    margin-top: 15%;
+    color: white;
+    font-family: helvetica, arial;
+    width: 550px;
+    height: 165px;
+    display: block;
+    position: relative;
+
+    /* BORDER RADIUS */  
+    -moz-border-radius: 7px;  
+    -webkit-border-radius: 7px;  
+    border-radius: 7px; 
+    border: 3px solid #E9DEAF;
+}
+
+.searchbox-container {
+    position: relative;
+    height: 30px;
+    width: 100%;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+#query {
+    font-family: 'proxima-nova-regular','helvetica neue',helvetica,arial,sans-serif;
+    color: #098780;
+    font-size: 18px;
+    position: absolute;
+    padding: 5px 15px;
+    width: 250px;
+    -moz-border-radius: 4px;  
+    -webkit-border-radius: 4px;  
+    border-radius: 4px; 
+    border: 1px solid #CCCCCC;
+}
+
+.styled-select select {
+    font-family: 'proxima-nova-regular','helvetica neue',helvetica,arial,sans-serif;
+    color: #098780;
+    background: transparent;
+    padding: 3px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none; /*for chrome*/
+    text-decoration: none;
+}
+
+.styled-select select:focus { outline: none; }
+.styled-select select:active { outline: none; }
+
+select::-moz-focus-inner{border:none;}
+
+.styled-select {
+    height: 33px;
+    margin-left: 290px;
+    width: 150px;
+    overflow: hidden;
+    background: url("images/down-arrow.png") no-repeat right #FFF;
+
+    -moz-border-radius: 4px;  
+    -webkit-border-radius: 4px;  
+    border-radius: 4px; 
+    border: 1px solid #CCCCCC;
+}
+
+.main-content {
+    background: url("images/main-content.png") no-repeat;
+    background-size: contain;
+    font-size: 100%;
+    height: 1265px;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
