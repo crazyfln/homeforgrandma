@@ -752,7 +752,7 @@ select::-moz-focus-inner{border:none;}
     margin: 0 auto;
     position: relative;
     width: 1000px;
-    height: 300px;
+    height: 950px;
     z-index: 2500;    
 }
 
@@ -813,10 +813,22 @@ select::-moz-focus-inner{border:none;}
 
 .paragraph p {
     margin: 4px 0;
+    text-align: left;
 }
 
 .paragraph {
     margin-bottom: 50px;
+    height: 200px;
+}
+
+.texts {
+    width: 500px;
+    float: left;
+    margin-left: 50px;
+}
+
+.texts h3 {
+    margin-top: 0;
 }
 
 .featuredpic2 {
@@ -830,8 +842,22 @@ select::-moz-focus-inner{border:none;}
     position: relative;
     float: right;
 
-    margin-left: 40px;
+    margin-right: 30px;
+}
 
+.featuredpic1 {
+    width: 320px;
+    height: 190px;
+    display: inline-block;
+    border: 8px solid #EEEDEC;
+
+    background: url("images/sample1.png") no-repeat;
+    background-size: contain;
+    position: relative;
+    float: left;
+
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
 
