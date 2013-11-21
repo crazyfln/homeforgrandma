@@ -428,7 +428,7 @@ li a {
 }
 
 .background {
-    background: url("images/background.png");
+    background: url("images/background.gif");
     background-size: cover;
     font-size: 100%;
     height: 475px;
@@ -578,7 +578,7 @@ select::-moz-focus-inner{border:none;}
 }
 
 .main-content1 {
-    background: url("images/content1.png") no-repeat;
+    background: url("images/content1.gif") no-repeat;
     background-size: cover;
     font-size: 100%;
     height: 470px;
@@ -808,7 +808,7 @@ select::-moz-focus-inner{border:none;}
     display: inline-block;
     border: 8px solid #EEEDEC;
 
-    background: url("images/sample1.png") no-repeat;
+    background: url("images/sample1.gif") no-repeat;
     background-size: contain;
     position: relative;
     float: left;
