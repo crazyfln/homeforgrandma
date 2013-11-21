@@ -28,7 +28,7 @@
 
 @font-face {  
     font-family: 'Entypo';
-    src: url('fonts/Entypo.otf'); 
+    src: url('fonts/Entypo.otf') format('opentype'); 
     font-weight: normal;  
     font-style: normal; 
 } 
@@ -42,7 +42,7 @@
 
 @font-face {  
     font-family: 'Web';
-    src: url('fonts/WebSymbols-Regular.otf'); 
+    src: url('fonts/WebSymbols-Regular.otf') format('opentype'); 
     font-weight: normal;  
     font-style: normal; 
 }
