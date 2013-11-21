@@ -40,6 +40,13 @@
     font-style: normal; 
 }  
 
+@font-face {  
+    font-family: 'Web';
+    src: url('fonts/WebSymbols-Regular.otf'); 
+    font-weight: normal;  
+    font-style: normal; 
+}
+
 html {
 	font-family: Helvetica,Arial,Verdana,sans-serif;
 }
@@ -741,7 +748,7 @@ select::-moz-focus-inner{border:none;}
     background: url("images/content2-background.png") no-repeat;
     background-size: cover;
     font-size: 100%;
-    height: 1000px;
+    height: 850px;
     position: relative;
     width: 100%;
     z-index: 1000;
@@ -752,7 +759,7 @@ select::-moz-focus-inner{border:none;}
     margin: 0 auto;
     position: relative;
     width: 1000px;
-    height: 950px;
+    height: 850px;
     z-index: 2500;    
 }
 
@@ -837,7 +844,7 @@ select::-moz-focus-inner{border:none;}
     display: inline-block;
     border: 8px solid #EEEDEC;
 
-    background: url("images/sample1.png") no-repeat;
+    background: url("images/sample2.png") no-repeat;
     background-size: contain;
     position: relative;
     float: right;
@@ -845,21 +852,230 @@ select::-moz-focus-inner{border:none;}
     margin-right: 30px;
 }
 
-.featuredpic1 {
+.featuredpic3 {
     width: 320px;
     height: 190px;
     display: inline-block;
     border: 8px solid #EEEDEC;
 
-    background: url("images/sample1.png") no-repeat;
+    background: url("images/sample3.png") no-repeat;
     background-size: contain;
     position: relative;
     float: left;
 
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.home-footer {
+    background: url("images/footer-background.png") no-repeat;
+    background-size: cover;
+    font-size: 100%;
+    height: 340px;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    margin: 0 auto;
+}
+
+.footer-container {
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+    height: 300px;
+    z-index: 2500;   
+    margin-top: 40px; 
+}
+
+.quicklinks1 {
+    background: url("images/tie.png") no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 40px;
+
+    display: inline-block;
+}
+
+.quicklinks2 {
+    background: url("images/tie.png") no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 40px;
+    margin-left: 35px;
+    display: inline-block;
+}
+
+.information {
+    background: url("images/tie.png") no-repeat;
+    background-size: cover;
+    width: 230px;
+    height: 40px;
+    margin-left: 35px;
+    display: inline-block;
+}
+
+.location {
+    background: url("images/tie.png") no-repeat;
+    background-size: cover;
+    width: 220px;
+    height: 40px;
+    margin-left: 35px;
+    display: inline-block;
+}
+
+.footer-texts {
+    width: 150px;
+    height: 30px;
+
+    font-family: Lobster;
+    font-size: 15px;
+    color: #E0E1E1;
+    font-weight: 100;
+
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.footer-list {
+    list-style-type: none;
+    font-family: PTC;
+
+    font-size: 13px;
+    line-height: 13px;
+
+    height: 150px;
+    width: 190px;
+
+    display: inline-block;
+    vertical-align: top;
+
+    color: #17645F;
+}
+
+.footer-list li {
+    margin-bottom: 5px;
+    line-height: 15px;
+}
+
+.footer-list a {
+    color: #17645F;
+}
+
+.footer-list a:before {
+    font-family: Web;
+    font-size: 8px;
+    content: '>';  
+    color: #17645F; 
+    line-height: 13px;
+    margin-right: 5px;
+}
+
+.footer-list-special {
+    list-style-type: none;
+    font-family: PTC;
+
+    font-size: 13px;
+    line-height: 13px;
+
+    height: 150px;
+    width: 190px;
+
+    display: inline-block;
+    vertical-align: top;
+
+    color: #17645F;
+}
+
+.footer-special1:before {
+    font-family: Entypo;
+    font-size: 22px;
+    content: '$';  
+    color: #17645F; 
+    line-height: 13px;
+    margin-right: 5px;
+}
+
+.footer-special2:before {
+    font-family: Entypo;
+    font-size: 22px;
+    content: '!';  
+    color: #17645F; 
+    line-height: 13px;
+    margin-right: 5px;
+}
+
+.footer-special3:before {
+    font-family: Entypo;
+    font-size: 22px;
+    content: '%';  
+    color: #17645F; 
+    margin-right: 5px;
+}
+
+.grandma-logo {
+    background: url("images/grandma.png") no-repeat;
+    background-size: contain;
+    width: 26px;
+    height: 33px;
+    margin-left: 35px;
+    margin-right:10px;
+    display: inline-block;
+    float: left;
+}
+
+.copyright {
+    display: inline-block; 
+    width: 420px;
+    float: left;
+
+    font-family: PTC;
+    font-size: 13px;
+}
+
+.copyright p {
+    margin-top: 10px;
+}
+
+.terms {
+    width: 500px;
+    height: 20px;
+
+    display: inline-block;
+}
+
+.terms ul {
+    list-style-type: none;
+    font-family: PTC;
+    margin: 0 0;
+    margin-top: 10px;
+
+    height: 20px;
+
+    font-size: 13px;
+}
+
+.terms li a {
+    display: inline-block;
+    float: left;
+
+    color: #17645F; 
+}
+
+.terms li:before{
+    content: '';
+}
+
+.social:before {
+    font-family: Web;
+    font-size: 14px;
+    content: 'k f g';  
+    color: #17645F; 
+    line-height: 13px;
+    margin-right: 25px;
 
 }
+
+
 
 
 
