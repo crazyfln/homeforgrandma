@@ -1,7 +1,14 @@
 <script type="text/javascript">
+
+
   jQuery(document).ready(function ($) {
       icheck();
-  });
+      $(".hide-btn-container").bind("click",function(){
+        $( ".facility-container" ).hide();
+        $( ".filters1-container" ).hide();
+        $( ".filters2-container" ).hide();
+       });
+  })
 
   function icheck(){
     if($(".icheck-me").length > 0){
@@ -11,12 +18,14 @@
         color = ($el.attr('data-color') !== undefined) ? "-" + $el.attr('data-color') : "";
         var opt = {
           checkboxClass: 'icheckbox' + skin + color,
-          radioClass: 'iradio' + skin + color,
+          radioClass: 'iradio' + skin + color,  
         }
         $el.iCheck(opt);
       });
     }
-  }
+  }  
 
-  
+  function ihide(){
+             
+  }
 </script>
