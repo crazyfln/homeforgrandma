@@ -11,7 +11,10 @@
  *= require_self
  *= require_tree .
  */
-/* CUSTOM FONT */  
+/* CUSTOM FONT */
+
+@import 'icheck/square/_all';
+
 @font-face {  
     font-family: 'EfonRegular';  
     src: url('fonts/heydings_icons.ttf');  
@@ -199,7 +202,7 @@ button, input {
     border-radius: 5px; 
 
     border: 1px solid #22ABA3;
-    border-top: 1px solid #c3d6df;
+    border-top: 1px solid #009288;
 
     /* TEXT SHADOW */  
    
@@ -257,7 +260,7 @@ button, input {
     border-radius: 5px; 
 
     border: 1px solid #22ABA3;
-    border-top: 1px solid #c3d6df;
+    border-top: 1px solid #009288;
 
     /* TEXT SHADOW */    
   
@@ -314,7 +317,7 @@ button, input {
     border-radius: 5px; 
 
     border: 1px solid #22ABA3;
-    border-top: 1px solid #c3d6df;
+    border-top: 1px solid #009288;
 
     /* TEXT SHADOW */   
   
@@ -370,6 +373,8 @@ button, input {
 }
 
 .main-logo {
+    height: 145px;
+    width: 190px;
     position: absolute;
     top: 5%;
     left: 43%;
@@ -640,7 +645,7 @@ select::-moz-focus-inner{border:none;}
 }
 
 .badge1 {
-    background: url("images/badge1.gif") no-repeat;
+    background: url("images/badge1.png") no-repeat;
     background-size: cover;
     height: 160px;
     width: 160px;
@@ -651,7 +656,7 @@ select::-moz-focus-inner{border:none;}
 }
 
 .badge2 {
-    background: url("images/badge2.gif") no-repeat;
+    background: url("images/badge2.png") no-repeat;
     background-size: cover;
     height: 160px;
     width: 200px;
@@ -662,7 +667,7 @@ select::-moz-focus-inner{border:none;}
 }
 
 .badge3 {
-    background: url("images/badge3.gif") no-repeat;
+    background: url("images/badge3.png") no-repeat;
     background-size: cover;
     height: 160px;
     width: 140px;
@@ -917,7 +922,7 @@ select::-moz-focus-inner{border:none;}
 .location {
     background: url("images/tie.png") no-repeat;
     background-size: cover;
-    width: 220px;
+    width: 210px;
     height: 40px;
     margin-left: 35px;
     display: inline-block;
@@ -1075,6 +1080,137 @@ select::-moz-focus-inner{border:none;}
 
 }
 
+#search-header {
+    background: url("images/top-banner.gif");
+    background-size: cover;
+    font-size: 100%;
+    height: 200px;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+
+.button-list {
+    margin-top: 25px;
+}
+
+.left-button {
+    display: inline-block;
+    float: left;
+}
+
+.right-button {
+    display: inline-block;
+    float: right;
+    margin-left: 10px;
+}
+
+.menu-container {
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+    height: 140px;
+    z-index: 2500;
+}
+
+#header-page .main-menu {
+    background: url("images/menubar.gif") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background-size: 1000px 60px;
+    height: 50px;
+    margin: 0 auto;
+    top: 75px;
+    position: absolute;
+    margin-top: -50px;
+    z-index: 1500;
+
+    -moz-border-radius: 8px;  
+    -webkit-border-radius: 8px;  
+    border-radius: 8px; 
+
+    border: 2px solid #E9DEAF;
+    border-top: 4px solid #E9DEAF;
+    border-bottom: 4px solid #E9DEAF;
+}
+
+#header-page .main-menu li {
+    line-height: 24px;
+}
+
+#header-page .main-menu li a {
+    color: #E9DEAF;
+}
+
+#header-page .main-logo {
+    height: 145px;
+    width: 190px;
+    position: absolute;
+    top: -14%;
+    left: 40%;
+    z-index: 2000;
+}
+
+#header-q {
+    color: #098780;
+    font-size: 15px;
+    bottom: 12px;
+    position: absolute;
+    height: 22px;
+    width: 200px;
+    padding: 0 15px;
+    margin-left: 15px;
+}
+
+#header-search-btn {
+    color: white;
+    font-family: helvetica, arial;
+    width: 120px;
+    height: 30px;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 32px;
+    left: 260px;
+    bottom: 11px;
+    position: absolute;
+
+    background: #039C93;  
+    background: -moz-linear-gradient(top, #039C93, #006B63);  
+    background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0, #039C93), color-stop(.5, #00867C), color-stop(.5, #007870), to(#006B63));  
+    /* BORDER RADIUS */  
+    -moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;  
+    border-radius: 5px; 
+
+    border: 1px solid #22ABA3;
+    border-top: 1px solid #009288;
+
+    /* TEXT SHADOW */  
+   
+  
+     /* BOX SHADOW */  
+    -moz-box-shadow: 0 1px 3px black;  
+    -webkit-box-shadow: 0 1px 3px black;  
+    box-shadow: 0 1px 3px black; 
+}
+
+#header-search-btn:after {
+    font-family: Web;  
+    content: 'L';  
+    color: white;  
+    font-size: 15px; 
+    line-height: 27px; 
+    float: right;  
+    margin-left: 2px;
+    margin-right: 10px;   
+    margin-bottom: 5px; 
+}
+
+#header-search-btn:hover {  
+    background: #014464;  
+    background: -moz-linear-gradient(top, #0c5f85, #0b5273 50%, #024869 51%, #003853);  
+    background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0, #0c5f85), color-stop(.5, #0b5273), color-stop(.51, #024869), to(#003853));  
+} 
 
 
 

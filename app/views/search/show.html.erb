@@ -1,0 +1,70 @@
+<%= render "layouts/header" %>
+
+<div class="search-main">
+	<div class="filter-container">
+		<div class="hide-btn-container">
+			<a class="hide-filter-btn" href="/search/index">Hide Filters</a>
+		</div>
+		<div class="facility-container">
+			<p>Types of Facilities</p>
+			<ul style="list-style: none;">
+				<li>
+					<input id="#input-1" type="checkbox" class='icheck-me checked' data-skin="square" data-color="yellow" value="checked">
+					<label>Assisted Living</label>	
+					<div class="color-box1"><h5>AL</h5></div>
+				</li>
+				<li>
+					<input id="check1" type="checkbox" class='icheck-me search-check' data-skin="square" data-color="blue">
+					<label>Independent Living</label>
+					<div class="color-box2"><h5>IC</h5></div>
+				</li>
+				<li>
+					<input id="#input-3" type="checkbox" class='icheck-me search-check' data-skin="square" data-color="orange">
+					<label>Residential Care Home</label>
+					<div class="color-box3"><h5>RC</h5></div>
+				</li>
+				<li>
+					<input id="check1" type="checkbox" class='icheck-me search-check' data-skin="square" data-color="pink">
+					<label>CCRC</label>
+					<div class="color-box4"><h5>CCRC</h5></div>
+				</li>				
+			</ul>
+		</div>
+		<div class="filters1-container">
+			<p>Search Filters</p>
+			<ul style="list-style: none;">
+				<li>
+					<input id="check1" type="checkbox" class='icheck-me search-check' data-skin="square" data-color="yellow">
+					<label>Accepts Medicare</label>
+				</li>
+				<li>
+					<input id="check1" type="checkbox" class='icheck-me search-check' data-skin="square" data-color="blue">
+					<label>Accepts SSI</label>
+				</li>
+				<li>
+					<input id="check1" type="checkbox" class='icheck-me search-check' data-skin="square" data-color="orange">
+					<label>Only Vacant Listings</label>
+				</li>
+				<li>
+					<input id="check1" type="checkbox" class='icheck-me search-check' data-skin="square" data-color="pink">
+					<label>Memory Care</label>
+					<div class="color-box5"></div>
+				</li>				
+			</ul>
+		</div>
+		<div class="filters2-container">
+			<ul style="list-style: none;">
+				<li>
+					<input id="check1" type="checkbox" class='icheck-me search-check' data-skin="square" data-color="purple">
+					<label>Hospice/Palliative Care</label>
+				</li>
+				<li>
+					<input id="check1" type="checkbox" class='icheck-me search-check' data-skin="square" data-color="red">
+					<label>Allows Pets</label>
+				</li>				
+			</ul>
+		</div>
+	</div>
+</div>
+
+<%= render "layouts/footer" %>

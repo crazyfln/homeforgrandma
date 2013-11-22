@@ -1,0 +1,230 @@
+@font-face {  
+    font-family: 'MyriadPro';
+    src: url('fonts/MyriadPro-Light.otf'); 
+    font-weight: normal;  
+    font-style: normal; 
+} 
+
+.search-main {
+	background: url("images/search-background.gif");
+    background-repeat: repeat;
+    font-size: 100%;
+    height: 850px;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    margin: 0 auto;
+}
+
+.filter-container {
+	margin: 0 auto;
+    position: relative;
+    width: 1000px;
+    height: 200px;
+    z-index: 2500;
+}
+
+.facility-container {
+	font-family: MyriadPro;
+	display: inline-block;
+	width: 302px;
+	height: 180px;
+	margin-left: 2px;
+	float: left;
+
+	background: url("images/filter-background.gif");
+    background-repeat: repeat;
+}
+
+.filters1-container {
+	font-family: MyriadPro;
+	display: inline-block;
+	width: 302px;
+	height: 180px;
+	margin-left: 40px;
+
+	float: left;
+
+	background: url("images/filter-background.gif");
+    background-repeat: repeat;
+}
+
+.filters2-container {
+	font-family: MyriadPro;
+	display: inline-block;
+	width: 305px;
+	height: 180px;
+	margin-left: 40px;
+
+	float: left;
+
+	background: url("images/filter-background.gif");
+    background-repeat: repeat;
+}
+
+.hide-btn-container {
+    display: block;
+    left: 92%;
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    margin-top: -35px;
+}
+
+.hide-filter-btn {
+    color: #000;
+    font-family: helvetica, arial;
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 32px;
+    margin-top: -200px;
+
+    background: #ECEBE5;  
+ 
+    /* BORDER RADIUS */  
+    -moz-border-radius: 4px;  
+    -webkit-border-radius: 4px;  
+    border-radius: 4px; 
+
+    border: 1px solid #ECEBEF;
+    border-top: 1px solid #ECEBEF;
+
+    text-shadow: 0 1px 1px #fff
+ 
+}
+
+.filter-container p {
+	color: #048A7F;
+	font-weight: 900;
+	font-family: MyriadPro;
+	font-size: 18px;
+	margin: 20px 20px;
+	margin-bottom: 10px;
+}
+
+.filter-container ul {
+	margin: 0 0;
+}
+
+.filter-container label {
+	color: black;
+	font-weight: 900;
+
+	line-height: 24px;
+
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 5px;
+
+	display: inline-block;
+}
+
+.color-box1 {
+	width: 40px;
+	height: 21px;
+	background: radial-gradient(ellipse, #28C5BC, #24B3AB);
+	background: -webkit-radial-gradient(ellipse, #ace, #28C5BC, #24B3AB);
+	background: -moz-radial-gradient(ellipse, #ace, #28C5BC, #24B3AB);
+
+	display: inline-block;
+
+	float: right;
+	margin-right: 70px;
+
+	-moz-border-radius: 4px;  
+    -webkit-border-radius: 4px;  
+    border-radius: 4px;
+
+	box-shadow: 0 1px 2px black; 
+    -moz-box-shadow: 0 1px 2px black;  
+    -webkit-box-shadow: 0 1px 2px black;   
+}
+
+.color-box2 {
+	width: 40px;
+	height: 21px;
+	background: radial-gradient(ellipse, #35A9DF, #319CCE);
+	background: -webkit-radial-gradient(ellipse, #ace, #35A9DF, #319CCE);
+	background: -moz-radial-gradient(ellipse, #ace, #35A9DF, #319CCE);
+
+	display: inline-block;
+
+	float: right;
+	margin-right: 40px;
+
+	-moz-border-radius: 4px;  
+    -webkit-border-radius: 4px;  
+    border-radius: 4px;
+
+	box-shadow: 0 1px 2px black; 
+    -moz-box-shadow: 0 1px 2px black;  
+    -webkit-box-shadow: 0 1px 2px black;   
+}
+
+.color-box3 {
+	width: 40px;
+	height: 21px;
+	background: radial-gradient(ellipse, #EF78A0 30%, #DE7094);
+	background: -webkit-radial-gradient(ellipse, #ace, #EF78A0 30%, #DE7094);
+	background: -moz-radial-gradient(ellipse, #ace, #EF78A0 30%, #DE7094);
+
+	display: inline-block;
+
+	float: right;
+	margin-right: 20px;
+
+	-moz-border-radius: 4px;  
+    -webkit-border-radius: 4px;  
+    border-radius: 4px;
+
+	box-shadow: 0 1px 2px black; 
+    -moz-box-shadow: 0 1px 2px black;  
+    -webkit-box-shadow: 0 1px 2px black;   
+}
+
+.color-box4 {
+	width: 50px;
+	height: 21px;
+	background: radial-gradient(ellipse, #D182E3 10%, #C77BDB 20%);
+	background: -webkit-radial-gradient(ellipse, #ace, #D182E3 10%, #C77BDB 20%);
+	background: -moz-radial-gradient(ellipse, #ace, #D182E3 10%, #C77BDB 20%);
+
+	display: inline-block;
+
+	float: right;
+	margin-right: 130px;
+
+	-moz-border-radius: 4px;  
+    -webkit-border-radius: 4px;  
+    border-radius: 4px;
+
+	box-shadow: 0 1px 2px black; 
+    -moz-box-shadow: 0 1px 2px black;  
+    -webkit-box-shadow: 0 1px 2px black;   
+}
+
+h5 {
+	font-family: MyriadPro;
+	margin: 4px 12px;
+	color: white;
+}
+
+.color-box5 {
+	width: 45px;
+	height: 25px;
+	background: url('images/MC.png') no-repeat;	
+	background-size: contain;
+
+	display: inline-block;
+
+	float: right;
+	margin-right: 80px;   
+}
+
+.filters2-container ul {
+	margin-top: 20px;
+}
