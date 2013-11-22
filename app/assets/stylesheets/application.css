@@ -13,7 +13,7 @@
  */
 /* CUSTOM FONT */
 
-@import 'icheck/square/_all';
+@import '/icheck/square/_all';
 
 @font-face {  
     font-family: 'EfonRegular';  
