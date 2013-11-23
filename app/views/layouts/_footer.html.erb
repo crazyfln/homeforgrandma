@@ -3,10 +3,27 @@
 
   jQuery(document).ready(function ($) {
       icheck();
+        $( ".facility-container" ).hide();
+        $( ".filters1-container" ).hide();
+        $( ".filters2-container" ).hide();
+        $( ".hide-btn-container" ).hide();
+
+      $(".show-btn-container").bind("click",function(){
+        $( ".facility-container" ).show();
+        $( ".filters1-container" ).show();
+        $( ".filters2-container" ).show();
+        $( ".show-btn-container" ).hide();
+        $( ".filters-container" ).hide();
+        $( ".hide-btn-container" ).show();
+       });
+
       $(".hide-btn-container").bind("click",function(){
         $( ".facility-container" ).hide();
         $( ".filters1-container" ).hide();
         $( ".filters2-container" ).hide();
+        $( ".show-btn-container" ).show();
+        $( ".filters-container" ).show();
+        $( ".hide-btn-container" ).hide();
        });
   })
 
