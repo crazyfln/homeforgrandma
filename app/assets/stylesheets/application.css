@@ -15,7 +15,7 @@
 /*
  *= require jquery.ui.all
  */
- 
+
 /* CUSTOM FONT */
 
 @import '/_all.css';
@@ -1094,7 +1094,7 @@ select::-moz-focus-inner{border:none;}
 
 #search-header {
     background: url("images/header-background.gif");
-    background-size: cover;
+    background-size: contain;
     font-size: 100%;
     height: 200px;
     position: relative;

@@ -12,12 +12,26 @@
     src: url('fonts/PTC55F.ttf'); 
     font-weight: normal;  
     font-style: normal; 
+} 
+
+@font-face {  
+    font-family: 'PTS76F';
+    src: url('fonts/PTS76F.ttf'); 
+    font-weight: normal;  
+    font-style: normal; 
 }  
+
+@font-face {  
+    font-family: 'PTS56F';
+    src: url('fonts/PTS56F.ttf'); 
+    font-weight: normal;  
+    font-style: normal; 
+}
 
 .search-main {
 	background: #F2F0EA;
     font-size: 100%;
-    height: 850px;
+    height: 2000px;
     position: relative;
     width: 100%;
     z-index: 1000;
@@ -318,22 +332,112 @@ h5 {
     padding-left: 0px; 
     padding-right: 0px;
     background: transparent; 
-    border-width: 0px 0px 1px 0px; 
+    border-width: 0px 0px 0px 0px; 
     -moz-border-radius: 0px; 
     -webkit-border-radius: 0px; 
     border-radius: 0px; 
 } 
 
 #tabs .ui-tabs-panel { 
-    background: #f5f3e5 url(http://code.jquery.com/ui/1.8.23/themes/south-street/images/ui-bg_highlight-hard_100_f5f3e5_1x100.png) repeat-x scroll 50% top; 
     border-width: 0px 1px 1px 1px; 
 }
 
 #tabs .tabs-right {
 	float: right;
-	margin-right: 0px;
+	margin-right: 0px;    
+}
+
+#tabs li {
+	-moz-border-top-left-radius: 5px; 
+	-moz-border-top-right-radius: 5px;  
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;  
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px;
+
+    border: 0px solid #BFBFBF;
 }
 
 .change-height {
 	height: 200px;
 }
+
+#tabs ul li a {
+	font-family: PTS56F;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.ui-state-default {
+	background: #ACACAC !important;
+}
+
+.ui-state-active {
+	background: #1C6F6C !important;
+	background: -moz-linear-gradient(top, #1C6F6C, #0B504B) !important;  
+    background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0, #1C6F6C), color-stop(.5, #0B504B), color-stop(.5, #0B504B), to(#1C6F6C)) !important;
+}
+
+.styled-select1 select {
+    font-family: MyriadPro;
+    color: #B3B3B3;
+    font-weight: 900;
+    background: transparent;
+    font-size: 16px;
+    height: 30px;
+    width: 240px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none; /*for chrome*/
+    text-decoration: none;
+    padding: 4px 4px;
+    padding-top: 5px;
+    padding-left: 6px;
+    -moz-border-radius: 2px;  
+    -webkit-border-radius: 2px;  
+    border-radius: 2px; 
+    border: 1px solid #B2B1B0;
+}
+
+.styled-select1 select:focus { 
+    outline: none; 
+    -moz-outline: none;
+    -webkit-outline: none;
+}
+
+.styled-select1 select:active { 
+    outline: none; 
+    -moz-outline: none;
+    -webkit-outline: none;
+}
+
+.styled-select1 {
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 220px;
+    overflow: hidden;
+    background: url("images/selection-arrow.gif") no-repeat right #FFF;
+
+    -moz-border-radius: 2px;  
+    -webkit-border-radius: 2px;  
+    border-radius: 2px; 
+    border: 1px solid #B2B1B0;
+}
+
+.content-tab {
+	height: 1500px;
+	background: #F3F2EF;
+
+	-moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border-radius: 5px;
+
+    border: 0px solid white !important; 
+
+    -moz-box-shadow:inset 0 0 20px #E0DED9;               /* For Firefox3.6+ */
+	-webkit-box-shadow:inset 0 0 20px #E0DED9;            /* For Chrome5+, Safari5+ */
+	box-shadow:inset 0 0 20px #E0DED9;                    /* For Latest Opera */
+}
+
