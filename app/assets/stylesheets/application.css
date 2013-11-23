@@ -11,6 +11,11 @@
  *= require_self
  *= require_tree .
  */
+
+/*
+ *= require jquery.ui.all
+ */
+ 
 /* CUSTOM FONT */
 
 @import '/_all.css';

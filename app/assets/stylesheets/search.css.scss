@@ -28,7 +28,7 @@
 	margin: 0 auto;
     position: relative;
     width: 1000px;
-    height: 200px;
+    height: 100px;
     z-index: 2500;
 }
 
@@ -304,4 +304,36 @@ h5 {
     padding-left: 10px;
 
     color: white;
+}
+
+#tabs {
+    padding: 0px; 
+    background: none; 
+    border-width: 0px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#tabs .ui-tabs-nav { 
+    padding-left: 0px; 
+    padding-right: 0px;
+    background: transparent; 
+    border-width: 0px 0px 1px 0px; 
+    -moz-border-radius: 0px; 
+    -webkit-border-radius: 0px; 
+    border-radius: 0px; 
+} 
+
+#tabs .ui-tabs-panel { 
+    background: #f5f3e5 url(http://code.jquery.com/ui/1.8.23/themes/south-street/images/ui-bg_highlight-hard_100_f5f3e5_1x100.png) repeat-x scroll 50% top; 
+    border-width: 0px 1px 1px 1px; 
+}
+
+#tabs .tabs-right {
+	float: right;
+	margin-right: 0px;
+}
+
+.change-height {
+	height: 200px;
 }

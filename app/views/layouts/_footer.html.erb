@@ -15,6 +15,7 @@
         $( ".show-btn-container" ).hide();
         $( ".filters-container" ).hide();
         $( ".hide-btn-container" ).show();
+        $( ".filter-container").addClass("change-height");
        });
 
       $(".hide-btn-container").bind("click",function(){
@@ -24,6 +25,7 @@
         $( ".show-btn-container" ).show();
         $( ".filters-container" ).show();
         $( ".hide-btn-container" ).hide();
+        $( ".filter-container").removeClass("change-height");
        });
   })
 
@@ -42,7 +44,5 @@
     }
   }  
 
-  function ihide(){
-             
-  }
+  $("#tabs").tabs();
 </script>
