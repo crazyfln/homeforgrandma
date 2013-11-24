@@ -441,3 +441,65 @@ h5 {
 	box-shadow:inset 0 0 20px #E0DED9;                    /* For Latest Opera */
 }
 
+.low-price-btn {
+    display: block;
+    left: 42%;
+    color: #9B9A99;
+    position: relative;
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.low-price-btn:before {
+	font-family: Web;
+	content: '[';
+	color: #9B9A99;
+	margin-right: 10px;
+}
+
+.exhibitions {
+	height: 1200px;
+	width: 600px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.map {
+	height: 400px;
+	width: 350px;
+}
+
+.place {
+	height: 180px;
+	width: 600px;
+	background: #FEFEFE;
+
+	background: radial-gradient(ellipse, #FEFEFE 40%, #FDFDFC 60%);
+	background: -webkit-radial-gradient(ellipse, #FEFEFE 40%, #FDFDFC 60%);
+	background: -moz-radial-gradient(ellipse, #FEFEFE 40%, #FDFDFC 60%);
+
+	-moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border-radius: 5px;
+
+    margin-bottom: 10px;
+
+    cursor: pointer;
+}
+
+.place-active {
+	background: radial-gradient(ellipse, #FBFDFD 40%, #E8F5F5 60%) !important;
+	background: -webkit-radial-gradient(ellipse, #FBFDFD 40%, #E8F5F5 60%) !important;
+	background: -moz-radial-gradient(ellipse, #FBFDFD 40%, #E8F5F5 60%) !important;	
+}
+
+.stamp {
+	position: relative;
+	top: 10px;
+	left: 10px;
+	width: 186px;
+	height: 160px;
+	background: url('images/stampframe.png');
+	background-size: cover;
+}

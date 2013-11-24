@@ -27,6 +27,10 @@
         $( ".hide-btn-container" ).hide();
         $( ".filter-container").removeClass("change-height");
        });
+
+      $(".place").bind("click", function(){
+        $(this).addClass("place-active").siblings().removeClass("place-active");
+      });
   })
 
   function icheck(){
