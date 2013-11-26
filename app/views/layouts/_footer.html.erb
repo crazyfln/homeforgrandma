@@ -39,6 +39,8 @@
       }
       );
 
+      $("#tabs").tabs();
+
       jQuery('.map_div').CustomMarker({icon_url: 'http://farm4.staticflickr.com/3823/11062941976_1b376d67ae_o.png'});
   });
 
@@ -57,7 +59,7 @@
     }
   }  
 
-  $("#tabs").tabs();
+  
 
       (function ( $ ) {
       $.fn.CustomMarker = function( options ) {
@@ -70,6 +72,8 @@
           
           function displayCurrentPosition(data) {
             element.html('<div class="map-canvas"></div>');
+            
+            var current = new google.maps.LatLng(data.coords.latitude, data.coords.longitude);
             
             var options = {
               center: new google.maps.LatLng(34.148181,-118.145027),
