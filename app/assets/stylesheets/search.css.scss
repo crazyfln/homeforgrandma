@@ -427,7 +427,7 @@ h5 {
 }
 
 .content-tab {
-	height: 1500px;
+	height: 1220px;
 	background: #F3F2EF;
 
 	-moz-border-radius: 5px; 
@@ -463,9 +463,11 @@ h5 {
 	width: 600px;
 	margin-right: 10px;
 	margin-left: 10px;
+	display: inline-block;
+	float: left;
 }
 
-.map {
+.map_div {
 	height: 400px;
 	width: 350px;
 }
@@ -494,7 +496,19 @@ h5 {
 	background: -moz-radial-gradient(ellipse, #FBFDFD 40%, #E8F5F5 60%) !important;	
 }
 
-.stamp {
+.stamp1 {
+	position: relative;
+	top: 10px;
+	left: 10px;
+	width: 186px;
+	height: 160px;
+	background: url('images/stampframe1.png');
+	background-size: cover;
+	display: inline-block;
+	float: left;
+}
+
+.stamp2 {
 	position: relative;
 	top: 10px;
 	left: 10px;
@@ -502,4 +516,201 @@ h5 {
 	height: 160px;
 	background: url('images/stampframe.png');
 	background-size: cover;
+	display: inline-block;
+	float: left;
+}
+
+.pic {
+	width: 175px;
+	height: 145px;
+	top: 7px;
+	left: 6px;
+	position: relative;
+}
+
+.pic1 {
+	background: url('pic1.gif');
+	background-size: cover;
+}
+
+.pic2 {
+	background: url('pic2.gif');
+	background-size: cover;
+}
+
+.pic3 {
+	background: url('pic3.gif');
+	background-size: cover;
+}
+
+.pic4 {
+	background: url('pic4.gif');
+	background-size: cover;
+}
+
+.pic5 {
+	background: url('pic5.gif');
+	background-size: cover;
+}
+
+.pic6 {
+	background: url('pic6.gif');
+	background-size: cover;
+}
+
+.content-middle {
+	font-family: MyriadPro;
+	position: relative;
+	width: 240px;
+	height: 160px;
+	display: inline-block;
+
+	top: 10px;
+	margin-left: 30px;
+}
+
+.content-middle p {
+	margin: 0 0;
+}
+
+.content-color-box {
+	float: left;
+	margin-right: 10px;
+}
+
+.dark-flag {
+	font-family: MyriadPro;
+	font-weight: 500;
+	color: white;
+	position: relative;
+	top: 20px;
+	display: inline-block;
+	float: right;
+	width: 130px;
+	height: 110px;
+	background: url('images/dark-flag.png');
+	background-size: contain;
+}
+
+.golden-flag {
+	font-family: MyriadPro;
+	font-weight: 500;
+	color: white;
+	position: relative;
+	top: 20px;
+	display: inline-block;
+	float: right;
+	width: 130px;
+	height: 110px;
+	background: url('images/golden-flag.png');
+	background-size: contain;	
+}
+
+.map_div {
+	width: 320px;
+	height: 370px;
+	display: inline-block;
+	float: right;
+	-moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border-radius: 5px;
+}
+
+.expand-search {
+	position: absolute;
+	top: 100px;
+	right: 40px;
+}
+
+.input-wrapper-map {
+	position: relative;
+	top: -20px;
+	height: 48px;
+    width: 300px;
+}
+
+#map-q {
+    color: #8E8E8E;
+    font-size: 12px;
+    bottom: 4px;
+    position: absolute;
+    height: 36px;
+    width: 110px;
+    padding-left: 35px;
+    padding-right: 140px;
+    margin-left: 27px;
+
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border-radius: 5px;
+
+    border: 0px solid #E9DEAF;
+}
+
+.expand-btn {
+	background: url('images/expand.png');
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	left: 33px;
+	top: 15px;
+	z-index: 2000;
+	position: relative;
+	cursor: pointer;
+}
+
+#map-search-btn {
+	font-family: helvetica, arial;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+    width: 120px;
+    height: 26px;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 25px;
+    left: 180px;
+    bottom: 9px;
+    position: absolute;
+    z-index: 2000;
+
+    background: #00887D;  
+    background: -moz-linear-gradient(top, #00887D, #006B63);  
+    background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0, #00887D), color-stop(.5, #00867C), color-stop(.5, #007870), to(#006B63));  
+    /* BORDER RADIUS */  
+    -moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;  
+    border-radius: 5px; 
+
+    border: 1px solid #22ABA3;
+    border-top: 1px solid #009288;
+}
+
+.map-filter {
+	background: #FBFBFB;
+	width: 313px;
+	height: 28px;
+	-moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;  
+    border-radius: 5px; 
+
+    border: 1px solid #FBFBFB;
+    top: 260px;
+    left: 13px;
+    position: relative;
+
+    padding-top: 10px;
+}
+
+.map-filter input {
+	display: inline-block; 
+	float: left;
+}
+
+.map-filter div {
+	display: inline-block; 
+	float: left;
+	margin-left: 2px;
 }
