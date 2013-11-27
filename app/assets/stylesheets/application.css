@@ -62,6 +62,13 @@
     font-style: normal; 
 }
 
+@font-face {  
+    font-family: 'PTS56F';
+    src: url('fonts/PTS56F.ttf'); 
+    font-weight: normal;  
+    font-style: normal; 
+}
+
 html {
 	font-family: Helvetica,Arial,Verdana,sans-serif;
 }
@@ -1226,8 +1233,50 @@ select::-moz-focus-inner{border:none;}
     z-index: 2600;
 }
 
+.footer-template {
+    background: url("images/footer-background.gif") no-repeat;
+    background-size: cover;
+    font-size: 100%;
+    height: 340px;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    margin: 0 auto;
+}
 
+.footer-container-template {
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+    height: 300px;
+    z-index: 2500; 
+    padding-top: 40px;  
+}
 
+.flag-longer {
+    font-size: 18px;
+    background: url("images/flag-longer.png") no-repeat;
+    background-size: cover;
+    width: 260px;
+    height: 40px;
+
+    display: inline-block;
+}
+
+.footer-texts-template {
+    width: 200px;
+    height: 40px;
+
+    font-family: PTS56F;
+    font-size: 18px;
+    color: #E0E1E1;
+    font-weight: 100;
+
+    margin-left: 60px;
+    margin-top: 8px;
+
+    line-height: 20px;
+}
 
 
 

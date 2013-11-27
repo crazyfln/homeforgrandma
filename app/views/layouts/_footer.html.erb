@@ -1,8 +1,66 @@
+<div class="footer-template">
+      <div class="footer-container-template">
+      <div>
+        <div class="flag-longer">
+          <div class="footer-texts-template">Los Angeles Area Cities</div>
+        </div>
+      </div>
+      <div>
+        <div style="margin-bottom: 40px;">
+          <ul style="margin-left: 10px; font-size: 14px;" class="footer-list">
+            <li><a href="#">Agoura Hills</a></li>
+            <li><a href="#">Alhambra</a></li>
+            <li><a href="#">Arcadia</a></li>
+            <li><a href="#">Artesia</a></li>
+            <li><a href="#">Avalon</a></li>
+            <li><a href="#">Azusa</a></li>
+            <li><a href="#">Baldwin Park</a></li>
+          </ul>
+          <ul style="margin-left: 10px; font-size: 14px;" class="footer-list">
+            <li><a href="#">Agoura Hills</a></li>
+            <li><a href="#">Alhambra</a></li>
+            <li><a href="#">Arcadia</a></li>
+            <li><a href="#">Artesia</a></li>
+            <li><a href="#">Avalon</a></li>
+            <li><a href="#">Azusa</a></li>
+            <li><a href="#">Baldwin Park</a></li>
+          </ul>
+          <ul style="margin-left: 10px; font-size: 14px;" class="footer-list">
+            <li><a href="#">Agoura Hills</a></li>
+            <li><a href="#">Alhambra</a></li>
+            <li><a href="#">Arcadia</a></li>
+            <li><a href="#">Artesia</a></li>
+            <li><a href="#">Avalon</a></li>
+            <li><a href="#">Azusa</a></li>
+            <li><a href="#">Baldwin Park</a></li>
+          </ul>
+          <ul style="margin-left: 10px; font-size: 14px;" class="footer-list">
+            <li><a href="#">Agoura Hills</a></li>
+            <li><a href="#">Alhambra</a></li>
+            <li><a href="#">Arcadia</a></li>
+            <li><a href="#">Artesia</a></li>
+            <li><a href="#">Avalon</a></li>
+            <li><a href="#">Azusa</a></li>
+            <li><a href="#">Baldwin Park</a></li>
+          </ul>          
+        </div>
+
+        <div style="height: 40px; padding-bottom: 0;">
+          <div class="grandma-logo"></div>
+          <div class="copyright"><p style="color: #17645F;">Copyright &copy; 2013 - HomeForGrandma.com - All Rights Reserved</p></div>
+          <div class="terms">
+            <ul>
+              <li><a style="margin-right: 10px;" class="social" href="#">Contact Us</a></li>
+              <li><a href="#">&bull;  &nbsp;  Terms &amp; Conditions</a></li>
+              <li><a style="margin-left: 10px;" href="#">&bull; &nbsp; Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>  
+</div>
+
 <script type="text/javascript">
-
-
-
-
   function icheck(){
     if($(".icheck-me").length > 0){
       $(".icheck-me").each(function(){
@@ -153,6 +211,10 @@
         $(this).removeClass("place-active");
       }
       );
+
+      $(".pg-btn").bind("click",function(){
+          $(this).addClass("green-btn").siblings().removeClass("green-btn");
+       });
 
       $("#tabs").tabs();
 
